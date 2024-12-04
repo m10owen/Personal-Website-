@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f9;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  .circle-image {
+    width: 100px; /* Adjust the size */
+    height: 100px; /* Same as width for a perfect circle */
+    border-radius: 50%; /* Makes the image circular */
+    border: 3px solid #007bff; /* Optional: Add a border */
+    object-fit: cover; /* Ensures the image scales properly */
+    border: 5px solid whitesmoke; /* Adds a white border */
+  box-shadow: 0 8px 16px whitesmoke; /* Adds a soft shadow */
+  }
+
+  .circle-image:hover {
+    width: 150px; /* Adjust the size */
+    height: 150px;
+    box-shadow: 0 8px 16px black;
+
+  }
+  
